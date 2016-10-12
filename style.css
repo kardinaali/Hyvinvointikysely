@@ -1,0 +1,42 @@
+BODY { background-color: #fff; font-family: "Arial", sans serif; margin: 0px; padding: 0px; }
+
+.OPTION { padding: 5px 20px 5px 20px; font-size: 11pt; text-align: center; }
+
+.header { text-align: center; padding: 10px; background-color: #80b; color: #fff; }
+
+.ohjeteksti { padding: 20px; background-color: #609; font-weight: bold; color: #fff; }
+
+.kysymyslohko { padding: 20px; border-bottom: solid 1px #666; font-size: 11pt; }
+.textfield  { margin-top: 12px; width: 400px; }
+.kaannos { font-weight: bold; }
+.suomi { color: #666; }
+
+.shown { background-color: #efe; margin: 0px -20px -20px -20px; padding: 20px; }
+
+.button { padding: 12px 24px 12px 24px; text-transform: uppercase; margin: 24px 24px 0px 24px; }
+.button_print { border: solid 2px blue; background-color: green; color: yellow; }
+.button_close { padding: 4px 12px 4px 12px; border: solid 2px red; background-color: red; color: yellow; font-size: 8pt; margin-top: 30px; }
+
+/*.rivi { visibility: hidden; } */
+.rivi { padding: 6px 6px 12px 20px; visibility: hidden; } 
+.o { text-decoration: none; }
+
+.hvk { font-weight: bold; font-size: 11pt; padding-left: 20px; margin-bottom: 12px; visibility: hidden; }
+
+/* Etusivu */
+
+.kokosivu { width: 40%; height: 100%; /*border-collapse: collapse;*/ margin-top: 24px; margin-left: auto; margin-right: auto; }
+.kielisolu { border: solid 4px #fff; border-style: outset; border-radius: 10px; background-color: #fff; padding: 30px; text-align: center; color: #999; } 
+.osa { width: 70%; border: solid 0px #fc0; border-collapse: collapse; }
+.solu  { border: solid 1px #aaa; width: 99%; }
+.solu50  { border: solid 1px #aaa; width: 50%; }
+.solu33  { border: solid 1px #aaa; width: 33%; }
+.solu25  { border: solid 1px #aaa; width: 25%; }
+.solu20  { border: solid 1px #aaa; width: 20%; }
+.solu15  { border: solid 1px #aaa; width: 15%; }
+.ke  { max-width: 30px; width: 1%; }
+.25 { /*width: 25%; */ padding: 0px 20px 0px 20px; }
+.50 { width: 50%; }
+
+A.linkki:link, A.linkki:visited { text-decoration: none; font-size: 14pt; color: blue;}
+A.linkki:hover { text-decoration: underline; }

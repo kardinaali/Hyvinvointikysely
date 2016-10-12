@@ -1,0 +1,13 @@
+BODY { font-size: 8pt; direction: ltr; }
+BUTTON { visibility: hidden; position: absolute; top: -100px; }
+.kaannos { visibility: hidden; }
+.reset  { visibility: hidden; }
+.ohjeteksti  { visibility: hidden; height: 2px; }
+.solu { border: none; }
+.box { visibility: hidden; }
+.textfield { border: none; }
+
+.kysymyslohko { padding: 12px; border-bottom: none; font-size: 9pt; }
+
+.rivi { visibility: visible; padding: 6px 6px 6px 20px; font-size: 11pt; } 
+.hvk { visibility: visible; }
